@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical">-->
+
+
+<!--<TableLayout-->
+<!--    android:id="@+id/tableLayout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_margin="5dp"-->
+<!--    android:padding="2dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginTop="30dp">-->
+
+
+
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/aws1"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:elevation="5dp"-->
+<!--            android:background="@drawable/gradient_4"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Awas List Rural | प्रधानमंत्री आवास योजना - ग्रामीण सूची"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#FFEB3B"-->
+<!--                android:textSize="20sp" />-->
+<!--        </LinearLayout>-->
+
+
+
+
+<!--        &lt;!&ndash; Repeat the above LinearLayout for other items as needed &ndash;&gt;-->
+<!--    </TableRow>-->
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/aws2"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:elevation="5dp"-->
+<!--            android:background="@drawable/gradient_4"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <TextView-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Awas Urban List | प्रधानमंत्री आवास योजना शहरी सूची"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#FFEB3B"-->
+<!--                android:textSize="20sp" />-->
+<!--        </LinearLayout>-->
+
+
+
+
+<!--        &lt;!&ndash; Repeat the above LinearLayout for other items as needed &ndash;&gt;-->
+<!--    </TableRow>-->
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/awsregurban3"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:elevation="5dp"-->
+<!--            android:background="@drawable/gradient_4"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:textAlignment="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#FFEB3B"-->
+<!--                android:textSize="20sp" />-->
+<!--        </LinearLayout>-->
+
+
+
+
+<!--        &lt;!&ndash; Repeat the above LinearLayout for other items as needed &ndash;&gt;-->
+<!--    </TableRow>-->
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/awstrackurban"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:elevation="5dp"-->
+<!--            android:background="@drawable/gradient_4"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:textAlignment="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#FFEB3B"-->
+<!--                android:textSize="20sp" />-->
+<!--        </LinearLayout>-->
+
+
+
+
+<!--        &lt;!&ndash; Repeat the above LinearLayout for other items as needed &ndash;&gt;-->
+<!--    </TableRow>-->
+
+
+<!--</TableLayout>-->
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/drawer_layout"
+android:background="@color/homepage">
+
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="54dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:elevation="80dp">
+
+                <RelativeLayout
+                    android:id="@+id/aws1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradient_1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardClick">
+
+                    <TextView
+                        android:id="@+id/hello1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="Awas List Rural"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="@color/black"
+
+                        android:id="@+id/hello2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="प्रधानमंत्री आवास योजना - ग्रामीण सूची"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:elevation="80dp"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/aws2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradient_4"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardClick">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="5dp"
+                        android:text="Awas Urban List Urban"
+                        android:textColor="@color/black"
+
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:text="प्रधानमंत्री आवास योजना शहरी सूची"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:elevation="80dp">
+
+                <RelativeLayout
+                    android:id="@+id/awsregurban3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradient_4"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardClick">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Awas New Registration\n Urban (शहरी)"
+                        android:textColor="@color/black"
+
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+
+                        android:text=""
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:elevation="80dp">
+
+                <RelativeLayout
+                    android:id="@+id/awstrackurban"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradient_4"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardClick">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
+
+                        android:padding="5dp"
+                        android:text="Awas Track Urban"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+
+                        android:layout_marginTop="2dp"
+                        android:text="शहरी"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/farm11"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+
+            <!--            <RelativeLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="120dp"-->
+            <!--                android:elevation="80dp">-->
+
+            <!--                <RelativeLayout-->
+            <!--                    android:id="@+id/card4news"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="100dp"-->
+            <!--                    android:layout_marginStart="20dp"-->
+            <!--                    android:layout_marginTop="20dp"-->
+            <!--                    android:layout_marginEnd="20dp"-->
+            <!--                    android:layout_marginBottom="20dp"-->
+            <!--                    android:background="@drawable/gradient_5"-->
+            <!--                    android:clickable="true"-->
+            <!--                    android:focusable="true"-->
+            <!--                    android:onClick="onCardClick">-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="10dp"-->
+            <!--                        android:text="जानकारी"-->
+            <!--                        android:textSize="30sp"-->
+            <!--                        android:textStyle="bold" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_alignParentBottom="true"-->
+            <!--                        android:layout_marginStart="10dp"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        android:text="Information"-->
+            <!--                        android:textSize="27sp"-->
+            <!--                        android:textStyle="bold" />-->
+
+            <!--                </RelativeLayout>-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_width="100dp"-->
+            <!--                    android:layout_height="98dp"-->
+            <!--                    android:src="@drawable/news_anchor_female"-->
+            <!--                    android:layout_marginTop="1dp"-->
+            <!--                    android:layout_marginEnd="10dp"-->
+            <!--                    android:layout_alignParentEnd="true"/>-->
+
+            <!--            </RelativeLayout>-->
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/rell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center_horizontal"
+    android:layout_marginBottom="2dp"
+    >
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="2dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_id" />
+
+
+</RelativeLayout>
+
+
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigation_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    app:headerLayout="@layout/navigation_header"
+    app:menu="@menu/navigation_menu" />
+
+</LinearLayout>

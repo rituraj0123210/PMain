@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PM Awas Yojna</string>
+    <string name="welcome">Welcome</string>
+    <string name="back" />
+
+    <string name="app_id">ca-app-pub-5237360090652941~8640901210</string>
+    <string name="banner_id">ca-app-pub-5237360090652941/4414753732</string>
+    <string name="interstitial_id">ca-app-pub-5237360090652941/3620546813</string>
+
+    <string name="privacy_Url">https://irockyapps.blogspot.com/2023/10/privacy-policy-for-eganna-caneupin.html</string>
+
+    <string name="image_contentDescription">image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_button" />
+    <string name="loading_check_your_internet_connection">Stay Connected to Internet</string>
+
+</resources>

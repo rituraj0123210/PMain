@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About eGanna Parchi and Payment</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .hero {
+      background-color: #ffcc00;
+      padding: 40px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .about {
+      background-color: #f9f9f9;
+      padding: 40px;
+      animation: slideUp 1s ease-in-out;
+    }
+
+    .features {
+      background-color: #333;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .features h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .features ul {
+      list-style: disc;
+      font-size: 16px;
+      margin-left: 20px;
+      padding-left: 0;
+      text-align: left;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<section class="hero">
+    <div class="container">
+        <h2>Welcome to प्रधानमंत्री आवास योजना 2023</h2>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>This app is developed by iRockys Apps.</p>
+        <p>This is not official app of Government.</p>
+
+    </div>
+</section>
+
+
+<script>
+    // Add animations on page load
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var heroSection = document.querySelector(".hero");
+      var aboutSection = document.querySelector(".about");
+      var featuresSection = document.querySelector(".features");
+
+      heroSection.style.animation = "fadeIn 1s ease-in-out";
+      aboutSection.style.animation = "slideUp 1s ease-in-out";
+      featuresSection.style.animation = "fadeIn 1s ease-in-out";
+    });
+  </script>
+
+
+<div class="container">
+    <h1>Contact</h1>
+    <p>You can reach us at: </p>
+    <a class="email-link" href="mailto:rry2023@gmail.com">rry2023@gmail.com</a>
+</div>
+
+
+<script>
+    window.addEventListener("load", function() {
+        var container = document.querySelector(".container");
+        container.classList.add("animated");
+    });
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<div style="height: 100px;"></div> <!-- Adds space at the bottom -->
+
+</body>
+</html>
